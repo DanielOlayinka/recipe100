@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
 
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
@@ -20,7 +16,7 @@
 body {
     background-color: var(--Stone100);
     font-family: Outfit;
-    color: var(--Stone900);
+    color: var(--Stone600);
 }
 
 h1 {
@@ -42,7 +38,7 @@ h2 {
 .container {
     margin: 50px auto;
     padding: 20px;
-    max-width: 60%;
+    max-width: 40%;
     background-color: var(--White);
     border-radius: 20px;
 }
@@ -119,7 +115,7 @@ img {
 .loins {
     font-family: Outfit;
     font-size: 15px;
-    color: var(--Stone900);
+    color: var(--Stone600);
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -134,9 +130,12 @@ img {
     margin-right: 40px;
 }
 
-.loins strong {
-    margin-right: 14px;
-    color: var(--Brown800);
+.loins p{
+    margin-left: 10px;
+}
+ 
+.loins b{
+    margin-right: 5px;
 }
 
 hr {
@@ -165,7 +164,7 @@ hr {
 
 .table td {
     padding: 10px;
-    border-bottom: 2px solid var(--Stone100);
+    border-bottom: 1px solid var(--Stone150);
     border-collapse: collapse;
 }
 
