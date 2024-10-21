@@ -19,12 +19,12 @@
 
 body {
     background-color: var(--Stone100);
-    font-family: "Outfit";
+    font-family: Outfit;
     color: var(--Stone900);
 }
 
 h1 {
-    font-family: "Young Serif";
+    font-family: Young Serif;
     color: var(--Stone900);
     margin-bottom: 10px;
 }
@@ -35,7 +35,7 @@ p {
 }
 
 h2 {
-    font-family: "Young Serif";
+    font-family: Young Serif;
     color: var(--Brown800);
 }
 
@@ -66,12 +66,12 @@ img {
     line-height: 30px;
     margin-top: 0px;
     padding-left: 32px;
-    font-family: "Outfit";
+    font-family: Outfit;
     padding-top: 20px;
 }
 
 .prep {
-    font-family: "Outfit";
+    font-family: Outfit;
     line-height: 21px;
     padding-left: 50px;
     padding-top: 10px;
@@ -88,7 +88,7 @@ img {
 }
 
 .inside {
-    font-family: "Outfit";
+    font-family: Outfit;
     padding-left: 40px;
     line-height: 25px;
     padding-top: 10px;
@@ -117,7 +117,7 @@ img {
 }
 
 .loins {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 15px;
     color: var(--Stone900);
     padding-left: 40px;
@@ -130,7 +130,7 @@ img {
 
 .loins li::marker {
     color: var(--Brown800);
-    font-family: "Outfit";
+    font-family: Outfit;
     margin-right: 40px;
 }
 
@@ -149,7 +149,7 @@ hr {
 
 .table {
     font-size: 16px;
-    font-family: "Outfit";
+    font-family: Outfit;
     padding-left: 20px;
 }
 
