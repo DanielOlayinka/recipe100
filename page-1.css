@@ -38,7 +38,7 @@ h2 {
 .container {
     margin: 50px auto;
     padding: 20px;
-    max-width: 40%;
+    max-width: 50%;
     background-color: var(--White);
     border-radius: 20px;
 }
@@ -227,6 +227,13 @@ hr {
     .viv {
         margin-left: 3px;
         margin-right: 3px;
+        margin-bottom: 0;
+    }
+    .prep ul{
+        margin: 0;
+    }
+    .ingredient h2{
+        margin-bottom:-8px ;
     }
 
     .ingredient li::marker {
@@ -234,6 +241,10 @@ hr {
     }
 
     .instruction strong {
+        color: #f1db79;
+    }
+    
+    .loins li::marker {
         color: #f1db79;
     }
 
